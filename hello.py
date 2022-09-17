@@ -5,7 +5,7 @@ print("Hello Python")
 myNumber = 3
 print(myNumber)
 
-myNumber2 = 200
+myNumber2 = 4.5
 print(myNumber2)
 
 myNumber2 = "Hello Python"
