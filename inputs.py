@@ -1,8 +1,8 @@
 # input() function
-name_echo = input("Gimme Your Name: ")
-print(type(name_echo))
-print("Your name is " + name_echo)
+#Taking multiple inputs using the split method
+name_echo,age = input("Gimme Your Name and Age\n").split()
+print("Your name is " + name_echo +'\nAge: '+age)
 
-# Using raw_input() function
-Age = int(raw_input("Enter your age"))
-print("Age: "+age)
+
+
+

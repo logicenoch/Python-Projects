@@ -38,7 +38,41 @@
 # some_func()
 
 # Chains of characters
-s = 1+2+3 +\
-    4+5+6 +\
-    7+8+9
-print(s)
+# s = 1+2+3 +\
+#     4+5+6 +\
+#     7+8+9
+# print(s)
+print("My name is {} and I'm {}years old!".format('Okeke Enoch', int(2)))
+
+#We can also specify the position of the objects
+print("{0} - {1}".format('England', 'Britain'))
+print("{1} - {0}".format('England', 'Britain'))
+
+#We can also format with the f-strings
+print(f"I love {'Geeks'} for \"{'Geeks'}\"")
+
+#We can also use dictionary 
+data = {'Soup': 12, 'Beans': 36 , 'Drinks' : 10 }
+print("Soup: {0[Soup]:d}, Beans: {0[Beans]:d}, Drinks: {0[Drinks]:d}".format(data))
+
+data = dict(fun = "Geeks for Geeks", adj = "Portal")
+print("I love {fun} computer {adj}".format(**data))
+
+#Formating using the string method
+
+cstr = "I love CodeWithLogic"
+
+print("Center aligned string with fillchr: " )
+print(cstr.center(40, '#'))
+
+print("Left aligned string with fillchr: " )
+print(cstr.ljust(40, '-'))
+
+print("Center aligned string with fillchr: " )
+print(cstr.rjust(40, '-'))
+
+
+
+
+
+
