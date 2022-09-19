@@ -11,7 +11,7 @@ a, b, c = [int(x) for x in input(
 # Calclates the Descriminant of the equation
 D = b**2 - 4*a*c
 
-# Solves the equation for the following conditions
+# Solves the equation using the following conditions
 # 1 - If D > 0.
 # 2 - If D < 0.
 # 3 - If D = 0.
